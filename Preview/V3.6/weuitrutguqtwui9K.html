@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/old.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>TopClass - 9K</title>
+</head>
+<body style="background-color: #121212;">
+<header>
+		<section id="head">
+		<a href="#"><img src="images/arava.png" alt="Arava" class="arava-logo"></a>
+	<nav>
+		<ul><center>
+			<li><a href=""><b>Home</b></a></li>
+			<li><a href="doodle/Doddletheme.html"><b>Doodle Theme</b></a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="https://aravaweb.github.io/alarm" target="_blank">Arava Alarm</a></li>
+			<li><a href="">Logout</a></li></center>
+		</ul>
+	</nav>
+	<img src="images/9k.png" class="class-logo">
+		</section>
+
+
+	</section>
+		<h1 class="headingtext">ADVANCED CLASSES - 10K</h1>
+		<center><span id="currentTime" class="clock"></span>
+
+	<section class="allpe">
+		<section>
+		<a href="weuitrutguqtwui9Ksst.html"><button class="period"><ion-icon name="earth-outline" class="icons"></ion-icon>Social Studies</button></a><br><br>
+		<a href="weuitrutguqtwui9Kchm.html"><button class="period"><ion-icon name="flask-outline" class="icons"></ion-icon>Chemistry</button></a><br><br>
+		<a href="weuitrutguqtwui9Kphy.html"><button class="period"><ion-icon name="nutrition-outline" class="icons"></ion-icon>Physics</button></a><br><br>
+		<a href="weuitrutguqtwui9Keng.html"><button class="period"><ion-icon name="newspaper-outline" class="icons"></ion-icon>English</button></a><br><br>
+		</section>
+		<section>
+		<a href="weuitrutguqtwui9Kfre.html"><button class="period"><ion-icon name="book-outline" class="icons"></ion-icon>French</button></a><br><br>
+		<a href="weuitrutguqtwui9Kmat.html"><button class="period"><ion-icon name="calculator-outline" class="icons"></ion-icon>Maths</button></a><br><br>
+		<a href="weuitrutguqtwui9Kbio.html"><button class="ctr"><ion-icon name="bandage-outline" class="icons"></ion-icon>Biology</button></a><br><br>
+		<a href="weuitrutguqtwui9Kara.html"><button class="period"><ion-icon name="language-outline" class="icons"></ion-icon>Arabic/<ion-icon name="hardware-chip-outline" class="icons"></ion-icon>AI</button></a><br><br>
+		</section>
+		<section>
+		<a href="weuitrutguqtwui9Kmed.html"><button class="period"><ion-icon name="library-outline" class="icons"></ion-icon>MED</button></a><br><br>
+		<a href="weuitrutguqtwui9Kart.html"><button class="period"><ion-icon name="color-palette-outline" class="icons"></ion-icon>Art</button></a><br><br>
+		<a href="weuitrutguqtwui9Kpe.html"><button class="period"><ion-icon name="barbell-outline" class="icons"></ion-icon>PE</button></a><br><br>
+		<a href="weuitrutguqtwui9Kmore.html"><button class="more"><ion-icon name="ellipsis-vertical-circle-outline" class="icons"></ion-icon>More</button></a><br><br>
+		</section>
+		
+
+	<script type="text/javascript" src="js/hidingjava.js"></script>	
+	<script type="text/javascript">
+	window.onload = function() {
+  clock();  
+    function clock() {
+    var now = new Date();
+    var TwentyFourHour = now.getHours();
+    var hour = now.getHours();
+    var min = now.getMinutes();
+    var sec = now.getSeconds();
+    var mid = 'pm';
+    if (min < 10) {
+      min = "0" + min;
+    }
+    if (hour > 12) {
+      hour = hour - 12;
+    }    
+    if(hour==0){ 
+      hour=12;
+    }
+    if(TwentyFourHour < 12) {
+       mid = 'am';
+    }     
+  document.getElementById('currentTime').innerHTML =     hour+':'+min+':'+sec +' '+mid ;
+    setTimeout(clock, 1000);
+    }
+}
+		</script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="text/javascript" src="hidingjava.js"></script>
+</body>
+</html>
+

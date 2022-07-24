@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<title>TopClass - 9K</title>
+
+	<style>
+		html,
+		body {
+		  width: 100%;
+		  height: 100%;
+		  font-family: "Open Sans", sans-serif;
+		  padding: 0;
+		  margin: 0;
+		}
+  
+		#context-menu {
+		  position: fixed;
+		  z-index: 10000;
+		  width: 150px;
+		  background: #1b1a1a;
+		  border-radius: 5px;
+		  transform: scale(0);
+		  transform-origin: top left;
+		}
+  
+		#context-menu.visible {
+		  transform: scale(1);
+		  transition: transform 200ms ease-in-out;
+		}
+  
+		#context-menu .item {
+		  padding: 8px 10px;
+		  font-size: 15px;
+		  color: #eee;
+		  cursor: pointer;
+		  border-radius: inherit;
+		}
+  
+		#context-menu .item:hover {
+		  background: #343434;
+		}
+	  </style>
+
+</head>
+<body>
+	<a href="home.html"><img src="images/arava.png" width="300px"></a>
+		<h1 class="text">9K - Classes</h1><br>
+		
+	<!-- Clock -->
+		<div class="clock">
+			<div class="display">
+	  <script>
+			setInterval(function(){
+			  const clock = document.querySelector(".display");
+			  let time = new Date();
+			  let sec = time.getSeconds();
+			  let min = time.getMinutes();
+			  let hr = time.getHours();
+			  let day = 'AM';
+			  if(hr > 12){
+				day = 'PM';
+				hr = hr - 12;
+			  }
+			  if(hr == 0){
+				hr = 12;
+			  }
+			  if(sec < 10){
+				sec = '0' + sec;
+			  }
+			  if(min < 10){
+				min = '0' + min;
+			  }
+			  if(hr < 10){
+				hr = '0' + hr;
+			  }
+			  clock.textContent = hr + ':' + min + ':' + sec + " " + day;
+			});
+		  </script>
+		  	  </div>
+			</div>
+		<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clock{
+  height: 100%;
+}
+body{
+  display: grid;
+  place-items: center;
+}
+.clock{
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  padding: 0 30px;
+  box-shadow: -3px -3px 7px rgba(255,255,255,0.05),
+               3px 3px 5px rgba(0,0,0,0.5);
+}
+.clock .display{
+  font-size: 60px;
+  color: cyan;
+  letter-spacing: 5px;
+  font-family: 'Orbitron', sans-serif;
+}
+</style>
+
+<!-- Subject Button -->
+		<div class="wrapper1">
+			<div class="btns"><section>
+				<a href="weuitrutguqtwui9Kbio.html" class="bt1">Biology</a><br>
+				<a href="weuitrutguqtwui9Kchm.html" class="bt2">Chemistry</a><br>
+				<a href="weuitrutguqtwui9Kphy.html" class="bt3">Physics</a><br>
+			</section>
+			<section>
+				<a href="weuitrutguqtwui9Keng.html" class="bt4">English</a><br>
+				<a href="weuitrutguqtwui9Kfre.html" class="bt5">French</a><br>
+				<a href="weuitrutguqtwui9Kmat.html" class="bt6"> Maths</a><br>
+			</section>
+			<section>
+				<a href="weuitrutguqtwui9Ksst.html" class="bt7">Social Studies</a><br>
+				<a href="weuitrutguqtwui9Kara.html" class="bt8">Arabic/AI</a><br>
+				 <a href="weuitrutguqtwui9Kmed.html" class="bt9">MED</a><br>
+			</section>
+			<section>
+				<a href="weuitrutguqtwui9Kart.html" class="bt10">Art</a><br>
+				<a href="weuitrutguqtwui9Kpe.html" class="bt11">PE</a><br>
+				<a href="weuitrutguqtwui9Kmore.html" class="bt12">More</a><br>
+			</section>
+
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+	*{
+	  margin: 0;
+	  padding: 0;
+	  outline: none;
+	  box-sizing: border-box;
+	  font-family: 'Poppins', sans-serif;
+	}
+
+	.wrapper1{
+	  padding: 20px 30px;
+	}
+	.wrapper1 .btns{
+	  display: flex;
+	  margin: 30px 0 20px 0;
+	}
+	.btns a{
+	  position: relative;
+	  margin: 0 20px;
+	  height: 60px;
+	  width: 200px;
+	  display: block;
+	  line-height: 60px;
+	  border-radius: 30px;
+	  text-decoration: none;
+	  text-align: center;
+	  justify-content: center;
+	  color: #fff;
+	  font-size: 18px;
+	  font-weight: 500;
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
+	  overflow: hidden;
+	  background: linear-gradient(-90deg, #f5ce62, #e85a19);
+	}
+
+.btns .bt1:hover{
+  transform: scale(0.96);
+}
+.btns .bt2:hover{
+  transform: scale(0.96);
+}
+.btns .bt3:hover{
+  transform: scale(0.96);
+}
+.btns .bt4:hover{
+  transform: scale(0.96);
+}
+.btns .bt5:hover{
+  transform: scale(0.96);
+}
+.btns .bt6:hover{
+  transform: scale(0.96);
+}
+.btns .bt7:hover{
+  transform: scale(0.96);
+}
+.btns .bt8:hover{
+  transform: scale(0.96);
+}
+.btns .bt9:hover{
+  transform: scale(0.96);
+}
+.btns .bt10:hover{
+  transform: scale(0.96);
+}
+.btns .bt11:hover{
+  transform: scale(0.96);
+}
+.btns .bt12:hover{
+  transform: scale(0.96);
+}
+</style>
+
+
+
+
+	</div>
+</div>
+
+<!-- Navi -->
+<div class="menu">
+	<div class="toggle"><ion-icon name="add"></ion-icon></div>
+	<li style="--i:0;">
+		<a href="home.html"><ion-icon name="person"></ion-icon></a>
+	</li>
+	<li style="--i:1;">
+		<a href="https://www.youtube.com/"><ion-icon name="logo-youtube"></ion-icon></a>
+	</li>
+	<li style="--i:2;">
+		<a href="https://web.whatsapp.com/"><ion-icon name="logo-whatsapp"></ion-icon></a>
+	</li>
+	<li style="--i:3;">
+		<a href="https://aravaweb.github.io/aravamindread/"><ion-icon name="planet"></ion-icon></a>
+	</li>
+	<li style="--i:4;">
+		<a href="https://royalmusic.epizy.com/"><ion-icon name="musical-notes"></ion-icon></a>
+	</li>
+	<li style="--i:5;">
+		<a href="https://royaldude.epizy.com/"><ion-icon name="flower"></ion-icon></a>
+	</li>
+	<li style="--i:6;">
+		<a href="https://aravaweb.github.io/Alarm/"><ion-icon name="alarm"></ion-icon></a>
+	</li>
+	<li style="--i:7;">
+		<a href="https://classroom.google.com/u/"><ion-icon name="school"></ion-icon></a>
+	</li>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+	let toggle = document.querySelector('.toggle');
+	let menu = document.querySelector('.menu');
+	toggle.onclick = function(){
+		menu.classList.toggle('active')
+	}
+</script>
+
+<style>
+.menu{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.menu li{
+    position: absolute;
+    left: 0;
+    list-style: none;
+    transform-origin: 100px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    transform: rotate(0deg) translateX(80px) ;
+}
+
+.menu.active li{
+    transform: rotate(calc(360deg / 8 * var(--i)));
+}
+.menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    transform: rotate(calc(360deg / -8 * var(--i)));
+    box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+    color: #111;
+    transition: 0.5s;
+}
+
+.menu li a:hover{
+    color: #ff1252;
+}
+
+.toggle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0,0,0,0.15);
+    font-size: 2em;
+    transition: transform 1.25s;
+}
+
+.menu.active .toggle{
+    transform: rotate(315deg);
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+
+</style>
+
+<link rel="stylesheet" href="css/style.css">
+
+</body>
+</html>

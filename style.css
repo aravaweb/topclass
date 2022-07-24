@@ -1,0 +1,33 @@
+body {
+	font-family: 'Dongle', sans-serif;
+}
+.goodbye {
+	font-size: 27px;
+	color: #fff;
+	margin-top: 60px;
+	margin-left: 30px;
+  transition: 1s;
+}
+.goodbye:hover {
+  font-size: 28px;
+  color: #fff;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.rotate {
+  animation: rotation 3s infinite linear;
+  width: 160px;
+  transition: 1s;
+}
+.rotate:hover {
+  width: 240px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

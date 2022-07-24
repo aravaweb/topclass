@@ -1,0 +1,205 @@
+body {
+	background: url(bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Miniver', cursive;
+}
+.arava-logo {
+	width: 100px;
+	margin-top: -10px;
+}
+.arava-logo:hover {
+	width: 100px;
+	margin-top: -10px;
+	filter: brightness(90);
+}
+ul li  {
+	display: inline-block;
+	margin-right: 35px;
+	font-family: 'Miniver', cursive;
+}
+ul li a {
+	color: #fff;
+	list-style: none;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+ul li a:hover {
+	color: #7229b8;
+	list-style: none;
+	text-decoration: none;
+
+}
+section#head {
+	display: flex;
+	justify-content:  space-between;
+}
+.class-logo {
+	width: 45px;
+	height: 45px;
+	transition: 0.20s ease-in;
+}
+.class-logo:hover {
+	filter: saturate(2);
+
+}
+.headingtext {
+	font-size: 30px;
+	background: -webkit-linear-gradient(#00CBFF, #FEFEFE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.clock {
+	font-size: 55px;
+	background-image: linear-gradient(to right, #F40A47 10%, #00CBFF  51%, #F4DB0A  100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-top: 80px;
+	cursor: pointer;
+}
+.period {
+	flex: 1 1 auto;
+  	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 10px;
+	border-color: transparent;
+  	transition: 0.5s;
+  	background-size: 200% auto;
+  	border-radius: 20px;
+  	background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)
+}
+.period:hover {
+	background-position: right center;
+	color: #FFF;
+   	box-shadow: 0 0 20px #eee;
+}
+.more {
+	flex: 1 1 auto;
+  	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 20px;
+	border-color: transparent;
+  	transition: 0.5s;
+  	background-size: 200% auto;
+  	background-image: linear-gradient(to right, #24C6DC 0%, #53346D  51%, #514A9D  100%)}
+.more:hover {
+	background-position: right center;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	color: #FFF;
+   	box-shadow: 0 0 20px #eee;
+}
+.allpe {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px;
+	padding-top: 25px;
+}
+.joinpage {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 30px;
+}
+.joinpic {
+	width: 500px;
+	margin-top: 50px;
+}
+.idp {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+.heading {
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+}
+.nojoin {
+	background-color: #62787A;
+	color: white;
+	padding: 7px 17px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 10px;
+	border-color: transparent;
+	transition: 0.24s ease-out;
+	cursor: not-allowed;
+}
+.join {
+	background-color: #0070F6;
+	color: white;
+	width: 90px;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-left: 10px;
+}
+.join:hover {
+	background-color: #6C63FF;
+	color: white;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	border-color: transparent;
+
+}
+.back {
+	border-width: thin;
+	background-color: transparent;
+	width: 90px;
+	height: 50px;
+	font-size: 19px;
+	color: #989898;
+	border-radius: 9px;
+	margin-top: 50px;
+	border-color: #ffffff;
+}
+.back:hover {
+	border-width: thin;
+	background-color: transparent;
+	width: 90px;
+	height: 50px;
+	font-size: 19px;
+	color: #2F2E41;
+	border-radius: 9px;
+	margin-top: 50px;
+	border-color: #F40A47;
+}
+#more-page {
+	display: flex;
+	justify-content: space-between;
+	padding: 10%;
+	
+}
+.pics-in-more-page {
+	width: 250px;
+	transition: 0.25s;
+	border-radius: 60px;
+
+}
+.pics-in-more-page:hover {
+	width: 255px;
+}
+.pics-in-more-page-exm {
+	width: 230px;
+	transition: 0.25s;
+
+}
+.pics-in-more-page-exm:hover {
+	width: 255px;
+}
+.timetable-r {
+	font-size: 13px;
+	color: #fff;
+	margin-top: 80px;
+}
